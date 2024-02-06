@@ -47,7 +47,7 @@ class Config(object):
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "NanoUPBotV3")
 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
 
